@@ -110,18 +110,6 @@ def draw_game_over(winner):
 	screen.blit(again_img, (screen_width // 2 - 80, screen_height // 2 + 10))
 # ----------------------------------------------------------------------
 
-"""def draw_winner(winner):
-    win_text = "Player " + str(winner) + " wins!"
-    win_img = font.render(win_text, True, blue)
-    pygame.draw.rect(screen, green, (screen_width // 2 - 100, screen_height // 2 - 60, 200, 50))
-    screen.blit(win_img, (screen_width // 2 - 100, screen_height // 2 - 50))
-
-    again_text = "Play again?"
-    again_img = font.render(again_text, True, blue)
-    pygame.draw.rect(screen, green, again_rect)
-    screen.blit(again_img, (screen_width // 2 - 80, screen_height // 2 + 10))
-    """
-#----------------------------------------------------------------------
 # MAIN LOOP
 
 run = True
